@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>VerdeVida Association</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="container">
+            <h1>VERDEVIDA</h1>
+            <h2>Cannabis Association – Community, Education & Well-Being</h2>
+            <a href="#apply-section" class="btn-green">Join the Community</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Our Areas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/cultivation.jpg" alt="responsible cultivation">
+                <h3>Responsible Cultivation</h3>
+                <p>Workshops and guidance on sustainable, safe home growing.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/education.jpg" alt="cannabis education">
+                <h3>Education & Science</h3>
+                <p>Informative talks, harm-reduction practices, and research insights.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/community.jpg" alt="community">
+                <h3>Community</h3>
+                <p>Support groups and activities for members.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/wellbeing.jpg" alt="well-being">
+                <h3>Well-Being</h3>
+                <p>Resources on responsible use and personal guidance.</p>
+            </div>
+
+        </div>
+
+        <div class="card2">
+            <img src="images/verdevida-banner.jpg" alt="cannabis association image">
+            <h3>A SAFE SPACE. AN INFORMED COMMUNITY.</h3>
+        </div>
+    </div>
+
+    <div id="apply-section" class="typeform-container">
+        <div data-tf-live="01KAXXCZ9QSMZ0H4SZMR4RSP80"></div>
+    </div>
+
+    <style>
+        .typeform-container {
+            width: 100%;
+            margin: 40px 0;
+            min-height: 600px;
+        }
+        .typeform-container > div[data-tf-live] {
+            width: 100%;
+            height: 100%;
+            min-height: 600px;
+        }
+        .typeform-fallback {
+            display: inline-block;
+            padding: 12px 18px;
+            background: #2e7d32;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+
+    <script src="https://embed.typeform.com/next/embed.js" defer></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                var liveDiv = document.querySelector('[data-tf-live="01KAXXCZ9QSMZ0H4SZMR4RSP80"]');
+                if (liveDiv && liveDiv.childElementCount === 0) {
+                    var fallback = document.createElement('p');
+                    fallback.innerHTML = 'Si no ves el formulario aquí, <a class="typeform-fallback" href="https://form.typeform.com/to/01KAXXCZ9QSMZ0H4SZMR4RSP80" target="_blank" rel="noopener">abrir el formulario en una nueva pestaña</a>';
+                    liveDiv.appendChild(fallback);
+                }
+            }, 1500);
+        });
+    </script>
+
+</body>
+</html>
+
